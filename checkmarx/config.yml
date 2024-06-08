@@ -10,10 +10,10 @@ version: 1
 # every value in this section is optional 
 checkmarx: 
   # configure the checkmarx scan parameters for scanning this specific project
-project_tags: "marcia_project_tag"  
+tags: "marcia_project_tag"  
 scan:
     # configure the checkmarx scan configurations for scanning this specific project
-    scan_tags: "marcia_scan_tag"
+    tags: "marcia_scan_tag"
 	configs:
       # configure the SAST related configurations this specific project
       sast:
